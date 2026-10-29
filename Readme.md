@@ -2,6 +2,16 @@
 
 # Vektor
 
+
+<!-- HERO IMAGE — place your cursor on the line below, delete this italic text, then drag your screenshot or GIF in. GitHub will insert it automatically. -->
+<img width="2752" height="1536" alt="Vektor" src="https://github.com/user-attachments/assets/40a026e5-af43-40e8-92de-0302b7f5a2fa" />
+
+*Vektor's canvas — replace this caption once the image is in.*
+
+---
+
+<div align="center">
+    
 **An open-source, local-first infinite canvas for design — built from scratch in TypeScript, with CRDT multiplayer and a compiler that outputs clean Tailwind and React instead of inline styles.**
 
 Vektor is a vector design tool for people who'd rather own their files than rent a browser tab. No account, no cloud lock-in, no screenshot-and-guess handoff to developers — just a fast canvas, a scene format you can `git diff`, and layers that compile straight to code.
@@ -17,14 +27,6 @@ Vektor is a vector design tool for people who'd rather own their files than rent
 **[Follow the repo](https://github.com/Talha-Yaseen-Hub/Vektor)** to catch new phases as they ship — built in public by [Talha Yaseen](https://talha-yaseen.vercel.app/).
 
 </div>
-
----
-
-<!-- HERO IMAGE — place your cursor on the line below, delete this italic text, then drag your screenshot or GIF in. GitHub will insert it automatically. -->
-*📸 Drop your hero screenshot or GIF here — the canvas mid-edit is the best first impression.*
-<img width="2752" height="1536" alt="Vektor" src="https://github.com/user-attachments/assets/40a026e5-af43-40e8-92de-0302b7f5a2fa" />
-
-*Vektor's canvas — replace this caption once the image is in.*
 
 ---
 
