@@ -6,7 +6,7 @@
 <!-- HERO IMAGE — place your cursor on the line below, delete this italic text, then drag your screenshot or GIF in. GitHub will insert it automatically. -->
 <img width="2752" height="1536" alt="Vektor" src="https://github.com/user-attachments/assets/40a026e5-af43-40e8-92de-0302b7f5a2fa" />
 
-*Vektor's canvas — replace this caption once the image is in.*
+*Vektor's canvas*
 
 ---
 
