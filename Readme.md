@@ -2,25 +2,26 @@
 
 # Vektor
 
-
 <!-- HERO IMAGE — place your cursor on the line below, delete this italic text, then drag your screenshot or GIF in. GitHub will insert it automatically. -->
 <img width="2752" height="1536" alt="Vektor" src="https://github.com/user-attachments/assets/40a026e5-af43-40e8-92de-0302b7f5a2fa" />
 
 *Vektor's canvas*
 
----
+<br/>
 
-<div align="center">
-    
 **An open-source, local-first infinite canvas for design — built from scratch in TypeScript, with CRDT multiplayer and a compiler that outputs clean Tailwind and React instead of inline styles.**
 
 Vektor is a vector design tool for people who'd rather own their files than rent a browser tab. No account, no cloud lock-in, no screenshot-and-guess handoff to developers — just a fast canvas, a scene format you can `git diff`, and layers that compile straight to code.
 
-![TypeScript](https://img.shields.io/badge/TypeScript-100%25-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Platform](https://img.shields.io/badge/Platform-Web-333333?style=flat-square)
+<br/>
+
+<img src="https://skillicons.dev/icons?i=ts,js,html,css,tailwind" alt="TypeScript, JavaScript, HTML, CSS, Tailwind CSS" />
+
+<br/><br/>
+
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 ![Status](https://img.shields.io/badge/Status-Early%20Alpha-orange.svg?style=flat-square)
-
+![Platform](https://img.shields.io/badge/Platform-Web-333333?style=flat-square)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](#-contributing)
 [![GitHub Stars](https://img.shields.io/github/stars/Talha-Yaseen-Hub/Vektor?style=social)](https://github.com/Talha-Yaseen-Hub/Vektor/stargazers)
 
@@ -33,25 +34,46 @@ Vektor is a vector design tool for people who'd rather own their files than rent
 > [!NOTE]
 > **Vektor doesn't have a community yet — you could be one of the first.** Open an [issue](https://github.com/Talha-Yaseen-Hub/Vektor/issues), start a [discussion](https://github.com/Talha-Yaseen-Hub/Vektor/discussions), or fork it and see what you'd build. This early, contributors shape the architecture — they don't just patch it.
 
+<div align="center">
+
 [Features](#-features) · [Everything in the Box](#-everything-in-the-box) · [The Scene Format](#-the-scene-format) · [Under the Hood](#-under-the-hood) · [Roadmap](#-roadmap) · [Get Started](#-get-started) · [Contributing](#-contributing)
+
+</div>
 
 ---
 
 ## ✨ Features
 
+<table>
+<tr>
+<td width="50%" valign="top">
+
 #### 🎯 Familiar by design
 If you've used Figma or Illustrator, you already know Vektor. Direct manipulation, not a menu to hunt through — select, drag, resize, rotate.
+
+</td>
+<td width="50%" valign="top">
 
 #### ⚡ Native-speed canvas
 An R-Tree spatial index culls everything outside the viewport before a single pixel is drawn, so the canvas stays smooth with thousands of shapes on screen.
 
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 #### 🧬 Documents that are just JSON
 No proprietary binary format. Scenes are structured, stable-keyed JSON — diffable, mergeable, and reviewable like any other code change.
+
+</td>
+<td width="50%" valign="top">
 
 #### 🤝 Multiplayer without a server in the loop
 Built on Yjs CRDTs with fractional indexing for layer order, so two people can edit — even reorder the same layer — at once, with no server arbitrating who "won."
 
-<br/>
+</td>
+</tr>
+</table>
 
 <table>
 <tr>
@@ -96,20 +118,11 @@ Move one shape, see one line change — not a binary blob replaced wholesale.
 
 ## 📦 Everything in the Box
 
-#### Primitives
-Frame · Rectangle · Ellipse · Text · Vector · Group — the full node set the scene graph is built around.
-
-#### Auto-Layout
-A Yoga-powered flexbox engine: horizontal or vertical flow, item spacing, independent padding per side, and primary/counter-axis alignment (`MIN` · `CENTER` · `MAX` · `SPACE_BETWEEN`).
-
-#### Styling
-Solid and linear-gradient fills, independent strokes with configurable weight, per-corner radius, opacity, and visibility/lock state — all first-class fields on every node, not bolted on.
-
-#### Collaboration
-Real-time multiplayer via Yjs, offline persistence through IndexedDB snapshots, and a document model designed so reconnecting after being offline just... works.
-
-#### Export
-A scene-to-Tailwind compiler that walks the node tree and emits readable `className` strings and JSX structure. SVG export is on the [Roadmap](#-roadmap).
+| | |
+|---|---|
+| **🔷 Primitives**<br/>Frame · Rectangle · Ellipse · Text · Vector · Group — the full node set the scene graph is built around. | **📐 Auto-Layout**<br/>A Yoga-powered flexbox engine: horizontal/vertical flow, item spacing, independent padding per side, and primary/counter-axis alignment (`MIN` · `CENTER` · `MAX` · `SPACE_BETWEEN`). |
+| **🎨 Styling**<br/>Solid and linear-gradient fills, independent strokes with configurable weight, per-corner radius, opacity, and visibility/lock state — first-class fields on every node, not bolted on. | **🔄 Collaboration**<br/>Real-time multiplayer via Yjs, offline persistence through IndexedDB snapshots, and a document model designed so reconnecting after being offline just... works. |
+| **⚙️ Export**<br/>A scene-to-Tailwind compiler that walks the node tree and emits readable `className` strings and JSX structure. SVG export is on the [Roadmap](#-roadmap). | **🧩 Scene Graph**<br/>Every node lives in a flat `Map<NodeId, Node>` keyed by UUID — cheap mutations, no recursive diffing, trivial CRDT syncing. |
 
 ---
 
@@ -212,7 +225,10 @@ It stands on excellent open-source work: [Yjs](https://github.com/yjs/yjs) for C
 
 [![Star History Chart](https://api.star-history.com/svg?repos=Talha-Yaseen-Hub/Vektor&type=Date)](https://star-history.com/#Talha-Yaseen-Hub/Vektor&Date)
 
+<br/>
+
 **By [Talha Yaseen](https://talha-yaseen.vercel.app/)** — building Vektor in public
+
 [GitHub](https://github.com/Talha-Yaseen-Hub) · [Portfolio](https://talha-yaseen.vercel.app/) · [Email](mailto:talhavectorarts@gmail.com)
 
 </div>
