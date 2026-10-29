@@ -1,17 +1,17 @@
 <div align="center">
 
-# Vektor
+# Vektra
 
 <!-- HERO IMAGE — place your cursor on the line below, delete this italic text, then drag your screenshot or GIF in. GitHub will insert it automatically. -->
-<img width="2752" height="1536" alt="Vektor" src="https://github.com/user-attachments/assets/40a026e5-af43-40e8-92de-0302b7f5a2fa" />
+<img width="2752" height="1536" alt="Vektra" src="https://github.com/user-attachments/assets/40a026e5-af43-40e8-92de-0302b7f5a2fa" />
 
-*Vektor's canvas*
+*Vektra's canvas*
 
 <br/>
 
 **An open-source, local-first infinite canvas for design — built from scratch in TypeScript, with CRDT multiplayer and a compiler that outputs clean Tailwind and React instead of inline styles.**
 
-Vektor is a vector design tool for people who'd rather own their files than rent a browser tab. No account, no cloud lock-in, no screenshot-and-guess handoff to developers — just a fast canvas, a scene format you can `git diff`, and layers that compile straight to code.
+Vektra is a vector design tool for people who'd rather own their files than rent a browser tab. No account, no cloud lock-in, no screenshot-and-guess handoff to developers — just a fast canvas, a scene format you can `git diff`, and layers that compile straight to code.
 
 <br/>
 
@@ -23,16 +23,16 @@ Vektor is a vector design tool for people who'd rather own their files than rent
 ![Status](https://img.shields.io/badge/Status-Early%20Alpha-orange.svg?style=flat-square)
 ![Platform](https://img.shields.io/badge/Platform-Web-333333?style=flat-square)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](#-contributing)
-[![GitHub Stars](https://img.shields.io/github/stars/Talha-Yaseen-Hub/Vektor?style=social)](https://github.com/Talha-Yaseen-Hub/Vektor/stargazers)
+[![GitHub Stars](https://img.shields.io/github/stars/Talha-Yaseen-Hub/Vektra?style=social)](https://github.com/Talha-Yaseen-Hub/Vektra/stargazers)
 
-**[Follow the repo](https://github.com/Talha-Yaseen-Hub/Vektor)** to catch new phases as they ship — built in public by [Talha Yaseen](https://talha-yaseen.vercel.app/).
+**[Follow the repo](https://github.com/Talha-Yaseen-Hub/Vektra)** to catch new phases as they ship — built in public by [Talha Yaseen](https://talha-yaseen.vercel.app/).
 
 </div>
 
 ---
 
 > [!NOTE]
-> **Vektor doesn't have a community yet — you could be one of the first.** Open an [issue](https://github.com/Talha-Yaseen-Hub/Vektor/issues), start a [discussion](https://github.com/Talha-Yaseen-Hub/Vektor/discussions), or fork it and see what you'd build. This early, contributors shape the architecture — they don't just patch it.
+> **Vektra doesn't have a community yet — you could be one of the first.** Open an [issue](https://github.com/Talha-Yaseen-Hub/Vektra/issues), start a [discussion](https://github.com/Talha-Yaseen-Hub/Vektra/discussions), or fork it and see what you'd build. This early, contributors shape the architecture — they don't just patch it.
 
 <div align="center">
 
@@ -49,7 +49,7 @@ Vektor is a vector design tool for people who'd rather own their files than rent
 <td width="50%" valign="top">
 
 #### 🎯 Familiar by design
-If you've used Figma or Illustrator, you already know Vektor. Direct manipulation, not a menu to hunt through — select, drag, resize, rotate.
+If you've used Figma or Illustrator, you already know Vektra. Direct manipulation, not a menu to hunt through — select, drag, resize, rotate.
 
 </td>
 <td width="50%" valign="top">
@@ -79,7 +79,7 @@ Built on Yjs CRDTs with fractional indexing for layer order, so two people can e
 <tr>
 <td width="50%">
 
-<img width="2752" height="1536" alt="Vektor1" src="https://github.com/user-attachments/assets/a2ba80f4-6fca-4750-88cd-aa8e4b95adbb" />
+<img width="2752" height="1536" alt="Vektra1" src="https://github.com/user-attachments/assets/a2ba80f4-6fca-4750-88cd-aa8e4b95adbb" />
 
 **Direct manipulation, not menus**
 Select, drag, resize, and rotate with the same muscle memory as the tools you already use. Nothing you need five clicks to find.
@@ -87,7 +87,7 @@ Select, drag, resize, and rotate with the same muscle memory as the tools you al
 </td>
 <td width="50%">
 
-<img width="2752" height="1536" alt="Vektor2" src="https://github.com/user-attachments/assets/44e3e4cf-5033-45ca-9862-c5ac58782366" />
+<img width="2752" height="1536" alt="Vektra2" src="https://github.com/user-attachments/assets/44e3e4cf-5033-45ca-9862-c5ac58782366" />
 
 **A compiler, not an exporter**
 Auto-layout frames walk straight to `flex`, `gap-[…]`, and padding utilities — code a developer would actually commit, not inline styles to clean up later.
@@ -97,7 +97,7 @@ Auto-layout frames walk straight to `flex`, `gap-[…]`, and padding utilities �
 <tr>
 <td width="50%">
 
-<img width="2752" height="1536" alt="vektor3" src="https://github.com/user-attachments/assets/71af7ee8-91f5-445e-9542-f4872cdfe5b0" />
+<img width="2752" height="1536" alt="vektra3" src="https://github.com/user-attachments/assets/71af7ee8-91f5-445e-9542-f4872cdfe5b0" />
 
 **Multiplayer without the lag spiral**
 Fractional indexing means layer reorders resolve deterministically across clients — no last-write-wins flicker.
@@ -105,7 +105,7 @@ Fractional indexing means layer reorders resolve deterministically across client
 </td>
 <td width="50%">
 
-<img width="2752" height="1536" alt="Vektor4" src="https://github.com/user-attachments/assets/2c510cea-d5e6-43d9-82a2-255c17fa3100" />
+<img width="2752" height="1536" alt="Vektra4" src="https://github.com/user-attachments/assets/2c510cea-d5e6-43d9-82a2-255c17fa3100" />
 
 **Documents you can `git diff`**
 Move one shape, see one line change — not a binary blob replaced wholesale.
@@ -165,8 +165,8 @@ flowchart LR
 
 ```bash
 # Clone the repo
-git clone https://github.com/Talha-Yaseen-Hub/Vektor.git
-cd Vektor
+git clone https://github.com/Talha-Yaseen-Hub/Vektra.git
+cd Vektra
 
 # Install dependencies
 pnpm install
@@ -175,16 +175,16 @@ pnpm install
 pnpm dev
 ```
 
-Vektor runs anywhere Node runs — there's no platform-specific build step yet, since it ships as a web app, not native binaries.
+Vektra runs anywhere Node runs — there's no platform-specific build step yet, since it ships as a web app, not native binaries.
 
 > [!IMPORTANT]
-> Vektor is early. There are no tagged releases yet — clone `main` to try it, and expect missing features, rough edges, and breaking changes between commits. See [Roadmap](#-roadmap) for what's built versus planned.
+> Vektra is early. There are no tagged releases yet — clone `main` to try it, and expect missing features, rough edges, and breaking changes between commits. See [Roadmap](#-roadmap) for what's built versus planned.
 
 ---
 
 ## 🗺 Roadmap
 
-Vektor ships in five phases. Contributions are welcome at any phase — the earlier ones just have the most open ground.
+Vektra ships in five phases. Contributions are welcome at any phase — the earlier ones just have the most open ground.
 
 | Phase | Objective | Status |
 |---|---|---|
@@ -198,7 +198,7 @@ Vektor ships in five phases. Contributions are welcome at any phase — the earl
 
 ## 🤝 Contributing
 
-Vektor is early enough that contributors shape it, not just patch it. You don't need prior CRDT or canvas-rendering experience — plenty of the roadmap is self-contained.
+Vektra is early enough that contributors shape it, not just patch it. You don't need prior CRDT or canvas-rendering experience — plenty of the roadmap is self-contained.
 
 - **Fork** the repo and branch off `main`.
 - **Pick a lane** — the [Roadmap](#-roadmap) above doubles as a map of what's open, from Phase 1 canvas math to Phase 5 code-gen.
@@ -209,13 +209,13 @@ If nothing's tagged `good first issue` yet, open a discussion — early-stage re
 
 ### Come build this with us
 
-There's no Discord or forum yet — [GitHub Discussions](https://github.com/Talha-Yaseen-Hub/Vektor/discussions) is the front door for now. Say hello, propose an idea, or just open a PR.
+There's no Discord or forum yet — [GitHub Discussions](https://github.com/Talha-Yaseen-Hub/Vektra/discussions) is the front door for now. Say hello, propose an idea, or just open a PR.
 
 ---
 
 ## 📄 License & Credits
 
-Vektor is released under the [MIT License](LICENSE) — free to use, fork, and build on.
+Vektra is released under the [MIT License](LICENSE) — free to use, fork, and build on.
 
 It stands on excellent open-source work: [Yjs](https://github.com/yjs/yjs) for CRDT synchronization, [rbush](https://github.com/mourner/rbush) for R-Tree spatial indexing, and [Yoga](https://github.com/facebook/yoga) for WASM flexbox layout. None of them are affiliated with this project — just gratefully used by it.
 
@@ -223,11 +223,11 @@ It stands on excellent open-source work: [Yjs](https://github.com/yjs/yjs) for C
 
 ### ⭐ Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Talha-Yaseen-Hub/Vektor&type=Date)](https://star-history.com/#Talha-Yaseen-Hub/Vektor&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=Talha-Yaseen-Hub/Vektra&type=Date)](https://star-history.com/#Talha-Yaseen-Hub/Vektra&Date)
 
 <br/>
 
-**By [Talha Yaseen](https://talha-yaseen.vercel.app/)** — building Vektor in public
+**By [Talha Yaseen](https://talha-yaseen.vercel.app/)** — building Vektra in public
 
 [GitHub](https://github.com/Talha-Yaseen-Hub) · [Portfolio](https://talha-yaseen.vercel.app/) · [Email](mailto:talhavectorarts@gmail.com)
 
