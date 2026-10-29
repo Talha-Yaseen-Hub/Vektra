@@ -57,7 +57,7 @@ Built on Yjs CRDTs with fractional indexing for layer order, so two people can e
 <tr>
 <td width="50%">
 
-*📸 Drop a screenshot here — selection handles, a few shapes, rulers if you have them.*
+<img width="2752" height="1536" alt="Vektor1" src="https://github.com/user-attachments/assets/a2ba80f4-6fca-4750-88cd-aa8e4b95adbb" />
 
 **Direct manipulation, not menus**
 Select, drag, resize, and rotate with the same muscle memory as the tools you already use. Nothing you need five clicks to find.
@@ -65,7 +65,7 @@ Select, drag, resize, and rotate with the same muscle memory as the tools you al
 </td>
 <td width="50%">
 
-*📸 Drop a screenshot of an auto-layout frame next to its exported Tailwind code.*
+<img width="2752" height="1536" alt="Vektor2" src="https://github.com/user-attachments/assets/44e3e4cf-5033-45ca-9862-c5ac58782366" />
 
 **A compiler, not an exporter**
 Auto-layout frames walk straight to `flex`, `gap-[…]`, and padding utilities — code a developer would actually commit, not inline styles to clean up later.
@@ -75,7 +75,7 @@ Auto-layout frames walk straight to `flex`, `gap-[…]`, and padding utilities �
 <tr>
 <td width="50%">
 
-*📸 Drop a screenshot or short clip of two cursors editing at once.*
+<img width="2752" height="1536" alt="vektor3" src="https://github.com/user-attachments/assets/71af7ee8-91f5-445e-9542-f4872cdfe5b0" />
 
 **Multiplayer without the lag spiral**
 Fractional indexing means layer reorders resolve deterministically across clients — no last-write-wins flicker.
@@ -83,7 +83,7 @@ Fractional indexing means layer reorders resolve deterministically across client
 </td>
 <td width="50%">
 
-*📸 Drop a screenshot of a scene's JSON next to a git diff.*
+<img width="2752" height="1536" alt="Vektor4" src="https://github.com/user-attachments/assets/2c510cea-d5e6-43d9-82a2-255c17fa3100" />
 
 **Documents you can `git diff`**
 Move one shape, see one line change — not a binary blob replaced wholesale.
